@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Malvie Regular';
+    font-style: normal;
+    font-weight: normal;
+	src: local('Malvie Regular'), url('Malvie.otf') format('woff');
+    }
+
+@font-face {
+    font-family: 'Jackwrite Regular';
+    font-style: normal;
+    font-weight: normal;
+	src: local('Jackwrite Regular'), url('Jackwrite.ttf') format('woff');
+    }
+
+@font-face {
+    font-family: 'Carita Regular';
+    font-style: normal;
+    font-weight: normal;
+	src: local('Carita Regular'), url('Carita.otf') format('woff');
+    }
+
+ul.b{
+	font-size:20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+
+ul.c{
+	color: white;
+	font-size:16px;
+}
+
+.navigationbar {
+   float: right;
+   display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel {
+	position: relative;
+	z-index: -1;
+}
+
+table, th, td {
+  border: solid;
+  padding: 5px;
+	background-color: black;
+  color: white;
+  font-family: 'Carita Regular';
+  font-size:20px
+}
+table {
+  border-collapse: collapse;
+}
+
+.borderimg {
+border-radius: 25px;
+  height: 30px;
+  width: 400px;
+  background-color: #EAEFE4;
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+  background-color: black
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #601D00;
+	
+	}
+h1 {
+  color: black;
+    font-family: 'Malvie Regular';
+	text-shadow: 2px 2px 5px red;
+	font-size: 40px
+	}
+h2 {
+  color: #000000;
+    font-family: 'Jackwrite Regular';
+	font-size: 23px
+	}
+h3 {
+  color: #EAEFE4;
+    font-family: 'Carita Regular';
+    font-size: 16px
+}
+		
+h4 {
+  color: black;
+	font-family: 'Carita Bold';
+	text-shadow: 2px 2px 5px red;
+	 font-size: 20px
+	
+}
+
+h5 {
+  color: #EAEFE4;
+	text-shadow: 2px 2px 4px #000000;
+    font-family: 'Jackwrite Regular';
+	font-size: 24px
+	}
+	
+p {
+  color: #EAEFE4;
+	font-family: 'Carita Regular';
+	font-size: 15px
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #9e0e09;
+  border-radius: 5px;
+}
+
+.navbar {
+	 position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
